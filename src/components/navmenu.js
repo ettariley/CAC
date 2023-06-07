@@ -11,16 +11,16 @@ function NavMenu(props) {
     <Navbar
       collapseOnSelect
       fixed="top"
-      variant="dark"
-      bg="secondary"
+      variant="light"
+      bg="primary"
       expand="md"
       className='no-print'
     >
       <Container>
         <Navbar.Brand href="/">
           <img
-            src={require('../assets/cac-logo.png')}
-            height="60"
+            src={require('../assets/cac-logo-custom.png')}
+            height="90"
             alt="Child Advocacy Center of the 3rd Judicial District Logo"
           />
         </Navbar.Brand>

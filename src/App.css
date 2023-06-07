@@ -1,8 +1,25 @@
 .App {
   min-height: 100vh;
   padding: 0px;
+  font-family: 'Lato', sans-serif;
 }
 
 .footer {
   margin-top: auto;
+}
+
+a {
+  color: #292929;
+}
+
+a:hover {
+  color: #b1d287;
+}
+
+.footer-site {
+  background-color: #799fbd;
+}
+
+.footer-images {
+  max-width: 150px;
 }

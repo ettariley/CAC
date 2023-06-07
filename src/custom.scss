@@ -1,6 +1,21 @@
+@font-face {
+  font-family: happyGirl;
+  src: url(assets/happy-girl.ttf);
+}
+
 // put custom styles here
-$primary: #5465C2;
+$primary: #87b1d2;
 $secondary: #b1d287;
+$body-bg: #b1d287;
+$body-color: #292929;
+
+$headings-font-family: happyGirl, sans-serif;
+$font-family-base: 'Lato', sans-serif;
+
+.home-landing {
+  font-family: happyGirl;
+  font-size: 70px;
+}
 
 // import here
 @import "~bootstrap/scss/bootstrap";

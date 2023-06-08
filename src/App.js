@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import { Routes, Route } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import NavMenu from './components/navmenu';

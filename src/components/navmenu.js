@@ -14,7 +14,7 @@ function NavMenu(props) {
       variant="light"
       bg="primary"
       expand="md"
-      className='no-print'
+      className="no-print"
     >
       <Container>
         <Navbar.Brand href="/">

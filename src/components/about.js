@@ -47,25 +47,29 @@ function About() {
           </Col>
         </Row>
         <Row>
-          <Col sm="auto" className='pb-2'>
+          <Col sm="auto" className="pb-2">
             <Button>
               <NavLink to="/what-we-do">Learn more about CAC services</NavLink>
             </Button>
           </Col>
-          <Col sm="auto" className='pb-2'>
+          <Col sm="auto" className="pb-2">
             <Button>
               <NavLink to="/donate">Donate to the CAC</NavLink>
             </Button>
           </Col>
         </Row>
         <h2 className="mt-3">Our Staff</h2>
-        <Row className='pb-4'>
-          <Col md='4'>
-            <Card border="primary" className='border border-2 mb-2'>
+        <Row className="pb-4">
+          <Col md="4">
+            <Card border="primary" className="border border-2 mb-2">
               <Card.Img variant="top" src={Nellie} />
               <Card.Body>
-                <Card.Title><h3>Staff Member Name</h3></Card.Title>
-                <Card.Subtitle><h5>Staff Member Title</h5></Card.Subtitle>
+                <Card.Title>
+                  <h3>Staff Member Name</h3>
+                </Card.Title>
+                <Card.Subtitle>
+                  <h5>Staff Member Title</h5>
+                </Card.Subtitle>
                 <Card.Text>
                   Staff member bio. Lorem ipsum dolor sit amet, consectetur
                   adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -79,12 +83,16 @@ function About() {
               </Card.Body>
             </Card>
           </Col>
-          <Col md='4'>
-            <Card border="primary" className='border border-2 mb-2'>
+          <Col md="4">
+            <Card border="primary" className="border border-2 mb-2">
               <Card.Img variant="top" src={Nola} />
               <Card.Body>
-                <Card.Title><h3>Staff Member Name</h3></Card.Title>
-                <Card.Subtitle><h5>Staff Member Title</h5></Card.Subtitle>
+                <Card.Title>
+                  <h3>Staff Member Name</h3>
+                </Card.Title>
+                <Card.Subtitle>
+                  <h5>Staff Member Title</h5>
+                </Card.Subtitle>
                 <Card.Text>
                   Staff member bio. Lorem ipsum dolor sit amet, consectetur
                   adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -98,12 +106,16 @@ function About() {
               </Card.Body>
             </Card>
           </Col>
-          <Col md='4'>
-            <Card border="primary" className='border border-2 mb-2'>
+          <Col md="4">
+            <Card border="primary" className="border border-2 mb-2">
               <Card.Img variant="top" src={Ella} />
               <Card.Body>
-                <Card.Title><h3>Staff Member Name</h3></Card.Title>
-                <Card.Subtitle><h5>Staff Member Title</h5></Card.Subtitle>
+                <Card.Title>
+                  <h3>Staff Member Name</h3>
+                </Card.Title>
+                <Card.Subtitle>
+                  <h5>Staff Member Title</h5>
+                </Card.Subtitle>
                 <Card.Text>
                   Staff member bio. Lorem ipsum dolor sit amet, consectetur
                   adipiscing elit, sed do eiusmod tempor incididunt ut labore et

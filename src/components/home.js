@@ -18,7 +18,7 @@ function Home() {
     <Fade in={open}>
       <Container className="mt-5 pt-5">
         <Row className="mt-4">
-          <Col md='4' lg='6' className='pb-4'>
+          <Col md="4" lg="6" className="pb-4">
             {/* add in later - each word fades in by itself */}
             <Row className="home-landing pt-5">Hearing. Helping. Healing.</Row>
             <Row className="fs-5 pt-3">

@@ -3,7 +3,6 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Fade from 'react-bootstrap/Fade';
-import Button from 'react-bootstrap/Button';
 
 function Services() {
   const [open, setOpen] = useState(false);
@@ -24,7 +23,7 @@ function Services() {
           <Row>
             <Col className="pt-5  offset-md-1" md="6">
               <h2 className="">What We Do</h2>
-              <p className='fs-5'>
+              <p className="fs-5">
                 These couple of lines will provide a general overview of your
                 services and programs. Lorem ipsum dolor sit amet, consectetur
                 adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -50,7 +49,7 @@ function Services() {
           </Row>
         </Container>
         {/* rest of the page text */}
-        <Container className='pt-3 pb-3'>
+        <Container className="pt-3 pb-3">
           <Row>
             <h3>Services</h3>
             <Row>
@@ -104,15 +103,14 @@ function Services() {
               <Col>
                 <h4>Child Protective Investigative Team</h4>
                 <p>
-                  The CPIT is an
-                  interdisciplinary team of individuals from different
-                  backgrounds responsible for discussing and responding to child
-                  abuse cases.
+                  The CPIT is an interdisciplinary team of individuals from
+                  different backgrounds responsible for discussing and
+                  responding to child abuse cases.
                 </p>
               </Col>
             </Row>
           </Row>
-          <Row className='pt-3'>
+          <Row className="pt-3">
             <h3>Prevention & Training</h3>
             <p>
               If you offer different types of prevention services and training

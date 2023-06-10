@@ -23,3 +23,11 @@ a:hover {
 .footer-images {
   max-width: 150px;
 }
+
+.services-landing {
+  background-image: url(assets/services-bg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #b1d287;
+  height: 50vh;
+}

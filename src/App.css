@@ -31,3 +31,16 @@ a:hover {
   background-color: #b1d287;
   height: 50vh;
 }
+
+.donate-page {
+  background-image: url(assets/donate-bg.jpeg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-color: #b1d287;
+  height: 100%;
+}
+
+.donate-content {
+  background-color: rgba(255, 255, 255, 0.74);
+}

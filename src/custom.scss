@@ -12,9 +12,24 @@ $body-color: #292929;
 $headings-font-family: happyGirl, sans-serif;
 $font-family-base: 'Lato', sans-serif;
 
+$nav-link-font-size: 1.5em;
+
 .home-landing {
   font-family: happyGirl;
   font-size: 70px;
+}
+
+.nav-link {
+  font-family: happyGirl;
+  text-decoration: underline !important;
+  text-decoration-color: rgba(177, 210, 135, 0) !important;
+  text-underline-offset: 5px !important;
+  transition: text-decoration-color 500ms !important;
+}
+
+.nav-link:hover {
+  text-decoration-color: rgb(177, 210, 135, 1) !important;
+  // border-bottom: 3px solid #b1d287;
 }
 
 // import here

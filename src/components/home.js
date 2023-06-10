@@ -18,23 +18,15 @@ function Home() {
     <Fade in={open}>
       <Container className="mt-5 pt-5">
         <Row className="mt-4">
-          <Col className="home-landing">
-            <Row>Hearing. Helping. Healing.</Row>
-          </Col>
-          {/* <Col md="7">
-            <Row>
-              <Col className="home-landing">Hearing.</Col>
-            </Row>
-            <Row>
-              <Col className="home-landing offset-md-2">Helping.</Col>
-            </Row>
-            <Row>
-              <Col className="home-landing offset-md-4">Healing.</Col>
-            </Row>
-          </Col> */}
           <Col>
+            {/* add in later - each word fades in by itself */}
+            <Row className="home-landing pt-5">Hearing. Helping. Healing.</Row>
+            <Row className='fs-5 pt-3'>The Child Advocacy Center of the 3rd Judicial District provides prevention and support services to child victims of physical and sexual abuse in Greene, Hamblen, Hancock, and Hawkins Counties.</Row>
+          </Col>
+          <Col className='pb-3 d-sm-none d-md-flex'>
             <Image src={HomeLanding} fluid />
           </Col>
+          {/* add in later - more information provided by agency - stats, programs, etc. */}
         </Row>
       </Container>
     </Fade>

@@ -5,32 +5,55 @@
 
 // put custom styles here
 $primary: #87b1d2;
-$secondary: #b1d287;
-$body-bg: #b1d287;
+$secondary: white;
+$success: #b1d287;
+$body-bg: $success;
 $body-color: #292929;
+$link-color: $body-color;
+$link-hover-color: white;
 
 $headings-font-family: happyGirl, sans-serif;
 $font-family-base: 'Lato', sans-serif;
 
 $nav-link-font-size: 1.5em;
+// $navbar-light-color: transparentize($body-color, .2);
+$navbar-light-active-color: $body-color;
+$navbar-light-hover-color: $secondary;
 
 .home-landing {
-  font-family: happyGirl;
+  font-family: $headings-font-family;
   font-size: 70px;
 }
 
 .nav-link {
-  font-family: happyGirl;
+  font-family: $headings-font-family;
+  color: $body-color !important;
+}
+
+
+.nav-link {
   text-decoration: underline !important;
   text-decoration-color: rgba(177, 210, 135, 0) !important;
   text-underline-offset: 5px !important;
-  transition: text-decoration-color 500ms !important;
+  transition: color 500ms, text-decoration-color 500ms !important;
+  text-decoration-style: dotted !important;
 }
 
 .nav-link:hover {
+  color: $secondary !important;
   text-decoration-color: rgb(177, 210, 135, 1) !important;
-  // border-bottom: 3px solid #b1d287;
 }
+
+
+.nav-link.active {
+  text-decoration: underline dotted !important;
+  text-decoration-color: $body-color !important;
+  text-underline-offset: 5px !important;
+} 
+
+.nav-link.active:hover {
+  color: $body-color !important;
+} 
 
 // import here
 @import "~bootstrap/scss/bootstrap";

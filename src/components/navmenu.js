@@ -26,7 +26,7 @@ function NavMenu(props) {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
-          <Nav>
+          <Nav defaultActiveKey="1">
             <Nav.Link eventKey="1" as={Link} to="/">
               Home
             </Nav.Link>

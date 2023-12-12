@@ -2,6 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
+import Button from 'react-bootstrap/Button';
 import { NavLink } from 'react-router-dom';
 import Logo from '../assets/cac-logo.png';
 
@@ -46,30 +47,19 @@ function Footer() {
           </Row>
         </Col>
         <Col sm md="2" className="me-2">
-          <h4>Resources</h4>
-          <p>
-            Report Child Abuse<br></br>
-            <a href="tel:1-877-237-0004" title="Call">
-              1-877-237-0004
-            </a>
-          </p>
-          <a href="https://www.nationalchildrensalliance.org/" target="_blank">
-            <Image
-              src={require('../assets/natl-childrens-alliance.png')}
-              alt="National Children's Alliance Logo"
-              fluid
-              className="footer-images"
-            />
-          </a>{' '}
+          <h4>Report Child Abuse</h4>
+          <Button
+            href="https://carat.app.tn.gov/carat/"
+            target="_blank"
+            variant="success"
+            className="mb-2"
+          >
+            DCS Online Referral Form
+          </Button>
           <br></br>
-          <a href="https://www.kidcentraltn.com/" target="_blank">
-            <Image
-              src={require('../assets/kidcentral-tn.png')}
-              alt="Kid Central TN Logo"
-              className="mt-2 footer-images"
-              fluid
-            />
-          </a>
+          <Button href="tel:1-877-237-0004" variant="success">
+            Hotline: 1-877-237-0004
+          </Button>
         </Col>
         <Col sm md="2" className="">
           <h4>Site Menu</h4>
@@ -85,6 +75,58 @@ function Footer() {
           <Row>
             <NavLink to="/donate">Donate</NavLink>
           </Row>
+        </Col>
+      </Row>
+      <Row className="justify-content-center align-items-center pb-3">
+        <Col sm="auto">
+          <a href="https://www.nationalchildrensalliance.org/" target="_blank">
+            <Image
+              src={require('../assets/natl-childrens-alliance.png')}
+              alt="National Children's Alliance Logo"
+              fluid
+              className="footer-images m-1"
+            />
+          </a>
+        </Col>
+        <Col sm="auto">
+          <a href="https://www.kidcentraltn.com/" target="_blank">
+            <Image
+              src={require('../assets/kidcentral-tn.png')}
+              alt="Kid Central TN Logo"
+              className="footer-images m-1"
+              fluid
+            />
+          </a>
+        </Col>
+        <Col sm="auto">
+          <a href="https://www.cactn.org/" target="_blank">
+            <Image
+              src={require('../assets/cactn-logo-white.png')}
+              alt="Child Advocacy Centers of Tennessee Logo"
+              className="footer-images m-1"
+              fluid
+            />
+          </a>
+        </Col>
+        <Col sm="auto">
+          <a href="https://unitedwayofgreenecounty.com/" target="_blank">
+            <Image
+              src={require('../assets/uwgc.png')}
+              alt="United Way of Greene County Logo"
+              className="footer-images m-1"
+              fluid
+            />
+          </a>
+        </Col>
+        <Col sm="auto">
+          <a href="https://www.speedwaycharities.org/" target="_blank">
+            <Image
+              src={require('../assets/scc.png')}
+              alt="Speedway Childrens Charities Logo"
+              className="footer-images m-1"
+              fluid
+            />
+          </a>
         </Col>
       </Row>
       <Row className="footer-site p-1">

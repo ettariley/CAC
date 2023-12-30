@@ -2,6 +2,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Link, useNavigate } from 'react-router-dom';
 
 function NavMenu(props) {
@@ -33,9 +34,14 @@ function NavMenu(props) {
             <Nav.Link eventKey="2" as={Link} to="/who-we-are">
               Who We Are
             </Nav.Link>
-            <Nav.Link eventKey="3" as={Link} to="/what-we-do">
+            <NavDropdown eventKey='3' title='What We Do'>
+              <NavDropdown.Item eventKey="3.1" as={Link} to="/what-we-do">All Services</NavDropdown.Item>
+              <NavDropdown.Item eventKey="3.2" as={Link} to="/what-we-do/CPIT">CPIT</NavDropdown.Item>
+              <NavDropdown.Item eventKey="3.3" as={Link} to="/what-we-do/forensic-interview-FAQs">Forensic Interview FAQs</NavDropdown.Item>
+            </NavDropdown>
+            {/* <Nav.Link eventKey="3" as={Link} to="/what-we-do">
               What We Do
-            </Nav.Link>
+            </Nav.Link> */}
             <Nav.Link eventKey="4" as={Link} to="/donate">
               Donate
             </Nav.Link>

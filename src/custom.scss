@@ -19,19 +19,23 @@ $nav-link-font-size: 1.5em;
 // $navbar-light-color: transparentize($body-color, .2);
 $navbar-light-active-color: $body-color;
 $navbar-light-hover-color: $secondary;
+$dropdown-bg: $primary;
+$dropdown-border-color: white;
+$dropdown-font-size: 1.5em;
+$dropdown-link-hover-bg: rgba(255, 255, 255, 0);
 
 .home-landing {
   font-family: $headings-font-family;
   font-size: 70px;
 }
 
-.nav-link {
+.nav-link, .dropdown-item {
   font-family: $headings-font-family;
   color: $body-color !important;
 }
 
 
-.nav-link {
+.nav-link, .dropdown-item {
   text-decoration: underline !important;
   text-decoration-color: rgba(177, 210, 135, 0) !important;
   text-underline-offset: 5px !important;
@@ -39,19 +43,19 @@ $navbar-light-hover-color: $secondary;
   text-decoration-style: dotted !important;
 }
 
-.nav-link:hover {
+.nav-link:hover, .dropdown-item:hover {
   color: $secondary !important;
   text-decoration-color: rgb(177, 210, 135, 1) !important;
 }
 
 
-.nav-link.active {
+.nav-link.active, .dropdown-item.active {
   text-decoration: underline dotted !important;
   text-decoration-color: $body-color !important;
   text-underline-offset: 5px !important;
 } 
 
-.nav-link.active:hover {
+.nav-link.active:hover, .dropdown-item.nav-link.active:hover {
   color: $body-color !important;
 } 
 

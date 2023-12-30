@@ -61,21 +61,6 @@ function Footer() {
             Hotline: 1-877-237-0004
           </Button>
         </Col>
-        <Col sm md="2" className="">
-          <h4>Site Menu</h4>
-          <Row className="mb-1">
-            <NavLink to="/">Home</NavLink>
-          </Row>
-          <Row className="mb-1">
-            <NavLink to="/who-we-are">Who We Are</NavLink>
-          </Row>
-          <Row className="mb-1">
-            <NavLink to="/what-we-do">What We Do</NavLink>
-          </Row>
-          <Row>
-            <NavLink to="/donate">Donate</NavLink>
-          </Row>
-        </Col>
       </Row>
       <Row className="justify-content-center align-items-center pb-3">
         <Col sm="auto">
